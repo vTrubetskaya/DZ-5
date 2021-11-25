@@ -1,0 +1,232 @@
+*{
+font-family:"Open Sans",arial,sans-serif;
+}
+body{
+margin: 0px;
+background:background-color: #fff;
+}
+
+.header_social img{
+  filter:invert(100%) saturate(100%);
+}
+
+header{
+  background:#2e2f3a;
+  font-size:10pt;
+  display:flex;
+  justify-content:space-between;
+  height: 60px;
+}
+#header{
+  display:flex;
+  list-style:none;
+}
+#menu{
+  font-size:30px;
+  align-self: center;
+  text-decoration:none;
+  color:orange;
+  margin-right:30px;
+  margin-left: 10px;
+}
+#logo{
+  height:30px;
+  width:100px;
+  padding-top: 15px;
+}
+.header_nav li{
+  display:inline;
+}
+.header_nav li a{
+  text-decoration:none;
+  color:white;
+  margin:0px 20px;
+}
+.header_nav li a:hover{
+  color:orange;
+}
+#nav{
+  border-right:1px solid orange;
+}
+.header_social li{
+  display:inline;
+}
+#social{
+  width:30px;
+  height:30px;
+  padding-left:20px;}
+
+.container{
+  display:flex;
+  flex-direction:column;
+  gap:100px;
+  margin:150px 350px;
+}
+
+.wrapper_news{
+  color:white; 
+  display:grid;
+  grid-column-gap:8px;
+  grid-row-gap:8px;
+  grid-auto-columns: 220px;
+  grid-template-rows: 30px repeat(2, 220px) 160px;
+}
+
+.newshead{
+  border:2px solid orange;
+  background:#484b52;
+  color:#dcddde;
+  text-align:center;
+  grid-column-start:1;
+  grid-column-end:6;
+}
+.news1{
+  background-image:url('https://www.media4.hw-static.com/media/2021/07/twilightcollage1-web-1800x1200.jpg');
+  background-size:100% 100%;
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:2;
+  grid-row-end:4;
+}
+.news2{
+  background-image:url('https://www.media1.hw-static.com/media/2021/11/maxresdefault-1280x720.jpg');
+  background-size:100% 100%;
+  grid-column-start:4;
+  grid-column-end:6;
+  grid-row-start:2;
+  grid-row-end:3;
+}
+.news3{
+  background-image:url('https://www.media2.hw-static.com/media/2021/10/pittsburghday-web-1800x1200.jpg');
+  background-size:100% 100%;
+  grid-column-start:4;
+  grid-column-end:6;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+.news4{
+  background-image:url('https://www.media4.hw-static.com/media/2021/11/ghostbustersafterlife1-web-1800x1200.jpg');
+  background-size:100% 100%;
+}
+.news5{
+  background-image:url('https://www.media4.hw-static.com/media/2021/11/thetenderbar1-web-1800x1200.jpg');
+  background-size:100% 100%;
+}
+.news6{
+  background-image:url('https://www.media3.hw-static.com/media/2021/11/denise_downer_web-copy-1800x1200.jpg');
+  background-size:100% 100%;
+}
+.news7{
+  background-image:url('https://www.media1.hw-static.com/media/2021/10/hallowwitchyskull-web-1800x1200.jpg');
+  background-size:100% 100%;
+}
+.news8{
+  background-image:url('https://www.media3.hw-static.com/media/2021/10/lnis1web-1800x1200.jpg');
+  background-size:100% 100%;
+}
+.footer_info{
+  padding: 30px 100px 20px 100px;
+  background: #373745;
+  display: flex;
+  justify-content: space-around;
+}
+.footer_links{
+  display: flex;
+}
+.footercolumn{
+  list-style: none;
+}
+.footercolumn li a{
+  text-decoration:none;
+  color: white;
+}
+.footercolumn a:hover{
+  opacity: .4;
+}
+.footercolumn li{
+  padding-bottom: 10px;
+}
+.orange{
+  color: orange;
+}
+
+.footer_social{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  margin-top:15px;  
+}
+
+.footer_social span{
+  color: orange;
+}
+.footericon{
+  list-style: none;
+  margin-left:-40px;
+}
+.footericon li{
+  display: inline; 
+  margin-right: 20px;
+  color: white;
+  
+}
+.footericon img{
+  width: 25px; 
+  height: 25px;
+}
+.footericon li:hover{
+  opacity: .4;
+}
+
+.footer_box span{
+  margin-bottom: 40px;
+}
+.footer_box{
+  background: white;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  padding:20px;gap: 5px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.footer_box input{
+  padding:10px;
+  border-radius: 5px;
+  border:1px solid rgb(189, 187, 187);
+}
+.footer_box button{
+  background: orange;
+  color: white;
+  border:none;
+  padding:10px;
+  border-radius: 10px;
+}
+
+.footer_underline img{
+  width: 60px;
+  height: 60px;
+  float:left;
+  margin-right:30px;
+  margin-left:380px;
+}
+.footer_underline{
+  height: 70px;
+  background: #2e2e3a;
+  padding-top: 20px;
+}
+.copyright a{
+  text-decoration: none;
+  color:white;
+}
+.footer_underline a:hover{
+  text-decoration:underline;
+}
+.footer_last{
+  height:30px;
+  background: #2b2b2b;
+}
+.footer_first{
+  height:30px;
+  background:#2e2f3a;
+}
